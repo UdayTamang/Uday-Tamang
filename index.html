@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Navbar</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kolker+Brush&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <script src="https://kit.fontawesome.com/f748744b1c.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <div class="navbar-container" ><!-- -------------nav-bar-----container------------ -->
+    <nav class="navbar">
+      <div class="logo">Leo</div>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#PROJECTS">My Work</a></li>
+        <li><a href="#PORTFOLIO">Process</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="right-side">
+        <a href="#contact"><button class="cta">Get in Touch</button></a>
+      </div>
+    </nav>
+  </div><!-- -------------nav-bar-----container--end---------- -->
+
+
+
+  <section class="hero" data-aos="fade-up" data-aos-delay="90"><!-- -------------hero-section------------ -->
+
+    <div class="hero-image">
+      <img src="Image/profile2.jpg" alt="Hero Illustration">
+    </div>
+
+    <div class="hero-content">
+      <h1 class="headline">Hi, I'm <span class="highlight">Uday Tamang</span></h1>
+      <p class="subheadline">Crafting intuitive and engaging UI/UX designs that inspire.</p>
+      <div class="hero-buttons">
+        <a href="#PROJECTS" class="btn primary-btn">View Projects</a>
+        <a href="#contact" class="btn secondary-btn">Hire Me</a>
+      </div>
+    </div>
+  
+  </section><!-- -------------hero-section--end---------- -->
+  
+
+
+  <section class="about-me" id="about"><!-- -------------about me section---------- -->
+    <div class="container">
+      <div class="about-content">
+        <div class="about-image" data-aos="fade-up">
+          <img src="Image/profile 4.jpg" alt="Your Name">
+        </div>
+        <div class="about-text" data-aos="fade-up">
+          <h2>About Me</h2>
+          <p>
+            Hi, I'm Uday Tamang from Kathmandu, Nepal. My journey started in the kitchen as a chef, where I honed skills like teamwork, creativity, and understanding what people need. Over time, I realized I wanted to bring my passion for creating experiences into the digital world. That’s when I discovered UI/UX design—a field where I can combine my creative mindset with my ability to solve problems. Though I’m new to this industry, I’m eager to apply what I’ve learned and grow as a designer.
+          </p>
+          <button onclick="window.location.href='#contact'">Contact Me</button>
+        </div>
+      </div>
+    </div>
+  </section><!-- -------------about me section end---------- -->
+
+
+
+  <section class="design-quote" id="quote"><!-- -------------quote section---------- -->
+    <div class="container">
+      <div class="quote-box" data-aos="fade-up">
+        <p class="quote-text">
+          "Great design is not just about aesthetics—it's about creating experiences that connect with people and meet their needs."
+        </p>
+      </div>
+    </div>
+  </section><!-- -------------quote section--end---------- -->
+  
+
+
+
+  <section class="projects" id="PROJECTS" data-aos="fade-up" ><!-- -------------projects-section------------ -->
+    <h2 class="section-heading" id="TASK">My Projects</h2>
+    <div class="project-cards">
+      <div class="card">
+        <img src="Image/Screenshot 2024-12-02 112324.png" alt="Project 1" class="card-image" />
+        <div class="card-content">
+          <h3><a href="https://cafe-site-ten.vercel.app/" target="_blank">Leo Cafe</a></h3>
+          <p>Cafe site Special for Coffee</p>
+          <a href="https://cafe-site-ten.vercel.app/" target="_blank" class="btn">View Project</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="Image/Screenshot 2024-12-02 112346.png" alt="Project 2" class="card-image" />
+        <div class="card-content">
+          <h3><a href="https://restaurant-iota-virid.vercel.app/" target="_blank">Leo Food</a></h3>
+          <p>Simple site for restaurant</p>
+          <a href="https://restaurant-iota-virid.vercel.app/" target="_blank" class="btn">View Project</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="Image/clothe.png" alt="Project 3" class="card-image" />
+        <div class="card-content">
+          <h3><a href="https://clothing-six-chi.vercel.app/" target="_blank">Fashion E-commerce</a></h3>
+          <p>Brief description of Project 3.</p>
+          <a href="https://clothing-six-chi.vercel.app/" target="_blank" class="btn">View Project</a>
+        </div>
+      </div>
+    </div>
+  </section><!-- -------------project-section--end---------- -->
+
+
+
+
+
+  <section class="skills" id="skills"><!-- -------------skills-section------------ -->
+    <h2 class="section-heading" data-aos="fade-up">My Skills</h2>
+    <div class="skills-grid">
+      <!-- Graphic Design -->
+      <div class="skill-card" data-aos="fade-up" data-aos-delay="70" >
+        <h3>Graphic Design</h3>
+        <p>Expertise in creating visual concepts using tools like Adobe Photoshop, Illustrator, and more.</p>
+        <div class="skill-bar">
+          <div class="skill-progress" style="width: 85%;">85%</div>
+        </div>
+      </div>
+  
+      <!-- UI/UX Design -->
+      <div class="skill-card" data-aos="fade-up" data-aos-delay="90">
+        <h3>UI/UX Design</h3>
+        <p>Proficiency in crafting intuitive user interfaces and enhancing user experiences with Figma and Sketch.</p>
+        <div class="skill-bar">
+          <div class="skill-progress" style="width: 90%;">90%</div>
+        </div>
+      </div>
+    </div>
+  </section><!-- -------------skills-section-end----------- -->
+  
+
+
+
+  <section class="portfolio" id="PORTFOLIO"><!-- -------------road-map-section----------- -->
+    <!-- Heading at the top -->
+    <h2 class="portfolio-heading"  data-aos="fade-up">Road-Map of Portfolio</h2>
+
+    <!-- Portfolio Content Section -->
+    <div class="portfolio-content">
+        <!-- Left Section: Image -->
+        <div class="portfolio-image" data-aos="fade-up">
+            <img src="Image/road map.jpg" alt="Portfolio Image" />
+        </div>
+
+        <!-- Right Section: Columns -->
+        <div class="portfolio-columns">
+            <!-- Introduction Column -->
+            <div class="portfolio-column" tabindex="0" data-aos="fade-up" data-aos-delay="0">
+                <h3>Introduction</h3>
+                <p>Who you are, your background, and a brief summary about yourself.</p>
+                <p>Something unique about you or your mission.</p>
+                <p>Additional details about your portfolio.</p>
+            </div>
+
+            <!-- Projects Column -->
+            <div class="portfolio-column" tabindex="0" data-aos="fade-up" data-aos-delay="100">
+                <h3>Projects</h3>
+                <p>Project 1: A brief description of the project.</p>
+                <p>Project 2: Another description.</p>
+                <p>Project 3: Highlight your best work.</p>
+            </div>
+
+            <!-- Skills Column -->
+            <div class="portfolio-column" tabindex="0" data-aos="fade-up" data-aos-delay="200">
+                <h3>Skills</h3>
+                <p>Skill 1: Mention your expertise.</p>
+                <p>Skill 2: Highlight key skills.</p>
+                <p>Skill 3: Add certifications or awards.</p>
+            </div>
+
+            <!-- Inspiration Column -->
+            <div class="portfolio-column" tabindex="0" data-aos="fade-up" data-aos-delay="300">
+                <h3>Inspiration</h3>
+                <p>Your sources of inspiration.</p>
+                <p>Quotes or books that motivate you.</p>
+                <p>Personal stories or anecdotes.</p>
+            </div>
+
+            <!-- Personal Branding Column -->
+            <div class="portfolio-column" tabindex="0" data-aos="fade-up" data-aos-delay="400">
+                <h3>Personal Branding</h3>
+                <p>Your tagline or motto.</p>
+                <p>Links to social media or blogs.</p>
+                <p>What sets you apart from others.</p>
+            </div>
+        </div>
+    </div>
+</section><!-- -------------road-map-section-end----------- -->
+
+
+
+<!-- ------------hire-me------------ -->
+
+<section class="contact-me" id="contact">
+  <div class="container">
+    <h2 class="section-heading" data-aos="fade-up">Hire Me</h2>
+    <div class="contact-content">
+      <!-- Left Column: Social Links -->
+      <div class="contact-info" data-aos="fade-up">
+        <p> <i class="fas fa-envelope"></i> Email: <a href="mailto:cycyf667@gmail.com">cycyf6672gmail.com</a></p>
+        <p> <i class="fab fa-facebook"></i>  Facebook: <a href="https://www.facebook.com/profile.php?id=100027077940947" target="_blank">Leo Seraphim</a></p>
+        <p> <i class="fab fa-linkedin"></i>  LinkedIn: <a href="https://www.linkedin.com/in/uday-tamang-549a90320?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Uday Tamang</a></p>
+        <p> <i class="fab fa-instagram"></i>  Instagram: <a href="https://www.instagram.com/seraphim555/profilecard/?igsh=c3JsNWxzcHJhcTd2" target="_blank">Seraphim555</a></p>
+      </div>
+
+      <!-- Right Column: Contact Form -->
+      <div class="contact-form" data-aos="fade-up">
+        <form action="your-server-endpoint" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="text" name="contact" placeholder="Contact Number" required>
+          <input type="text" name="address" placeholder="Address">
+          <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ------------hire-me-end----------- -->
+
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
